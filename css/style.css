@@ -358,3 +358,7 @@ nav:hover {
   border-radius: 10px;
   padding: 20px;
 }
+
+.window:target {
+  display: flex;
+}
