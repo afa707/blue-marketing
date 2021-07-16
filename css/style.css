@@ -337,3 +337,24 @@ nav:hover {
 }
 
 /* footer end */
+
+.window {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.window__form {
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
